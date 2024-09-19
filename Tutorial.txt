@@ -1,0 +1,23 @@
+`SSN Gradient Tool`
+
+# To gradient a specific file and overwrite the original file:
+./SSN_GRADIENT -file -start "#FF0000" -middle "#FFFF00" -end "#0000FF" -overwrite file.txt
+
+# To gradient a specific file and create a new copy:
+./SSN_GRADIENT -file -start "#FF0000" -middle "#FFFF00" -end "#0000FF" file.txt
+
+# To gradient all files in a directory and overwrite the original files:
+./SSN_GRADIENT -dir -start "#FF0000" -middle "#FFFF00" -end "#0000FF" -overwrite /directory/goes/here
+
+# To gradient all files in a directory and create new copies:
+./SSN_GRADIENT -dir -start "#FF0000" -middle "#FFFF00" -end "#0000FF" /directory/goes/here
+
+# To see all colours in HEX format visit: https://htmlcolorcodes.com/
+
+> Note: Keep in mind that the middle gradient is optional.
+
+> Developer: https://t.me/tcpsyn
+
+
+
+# Check out https://t.me/tcpsyn_bot for more info!
